@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: Convert-number-to-word
+Version: 0.0.1
+Summary: To convert positive integers into words as per international or Indian numbering system
+Home-page: https://github.com/pypa/sampleproject
+Author: Yash Yadav
+Author-email: yashyadav1529@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: This module help to convert postive integers into string as per International as well as Indian numbering system.
+        
+        #BASIC INFORMATION:
+        
+        *Max integer input is upto 20 digits
+        *As per Indian numbering system its highest position is Mahashank i.e(10**19)
+        *As per International numbering system its highest position is QUINTILLION i.e(10**19)
+        *1st arg is postive number,2nd arg is numbering system i.e international and Indian
+        *Default numbering system is International
+        *For educational purpose and office purpose.
+        
+        
+        #Example 1:
+        Given input number : x=123456
+        import num_to_word
+        z=num_to_word(x).word()
+        print(z)
+        #output : one hundred twenty three thousand four hundred fifty six
+        
+        #Example 2:
+        Given input number : x=123456
+        import num_to_word
+        z=num_to_word(x,no_sys="INDIAN").word()
+        print(z)
+        #output : one lakh twenty three thousand four hundred fifty six
+        
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~            Thanks alot for using it ;)          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

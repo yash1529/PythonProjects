@@ -1,0 +1,92 @@
+"""
+        self.mr=Button(self.f,height=2,width=5,text="MR")
+        self.mr.grid(row=1,column=1,pady=1,padx=5)
+
+        self.ms=Button(self.f,height=2,width=5,text="MS")
+        self.ms.grid(row=1,column=2,pady=1,padx=5)
+
+        self.mplus=Button(self.f,height=2,width=5,text="MR+")
+        self.mplus.grid(row=1,column=3,pady=1,padx=5)
+
+        self.m_minus=Button(self.f,height=2,width=5,text="MR-")
+        self.m_minus.grid(row=1,column=4,pady=1,padx=5)
+
+        #2nd row buttons
+        
+        self.ce=Button(self.f,height=2,width=5,text="CE")
+        self.ce.grid(row=2,column=1,pady=1,padx=5)
+
+        self.c=Button(self.f,height=2,width=5,text="C")
+        self.c.grid(row=2,column=2,pady=1,padx=5)
+
+        
+        self.plus_minus=Button(self.f,height=2,width=5,text="±")
+        self.plus_minus.grid(row=2,column=3,pady=1,padx=5)
+
+        self.root=Button(self.f,height=2,width=5,text="√",font=("Calibri",10))
+        self.root.grid(row=2,column=4,pady=1,padx=5)
+        
+        #photo = PhotoImage(file = r"D:\PROJECTS_PYTHON\del_button.png")
+        self.erase=Button(self.f,height=3,width=5-1,text="",font=("Wingdings 3",7))
+        self.erase.grid(row=2,column=0,padx=5,pady=1)#ask how to add image to buttons
+
+        #3rd row buttons
+        self.num7=Button(self.f,height=2,width=5,text="7")
+        self.num7.grid(row=3,column=0,pady=10,padx=5)
+        
+        self.num8=Button(self.f,height=2,width=5,text="8")
+        self.num8.grid(row=3,column=1,pady=10,padx=5)
+        
+        self.num9=Button(self.f,height=2,width=5,text="9")
+        self.num9.grid(row=3,column=2,pady=10,padx=5)
+
+        self.div=Button(self.f,height=2,width=5,text="/")
+        self.div.grid(row=3,column=3,pady=10,padx=5)
+
+        self.per=Button(self.f,height=2,width=5,text="%")
+        self.per.grid(row=3,column=4,pady=10,padx=5)
+
+        #4th row buttons
+        self.num4=Button(self.f,height=2,width=5,text="4")
+        self.num4.grid(row=4,column=0,pady=1,padx=5)
+
+        self.num5=Button(self.f,height=2,width=5,text="5")
+        self.num5.grid(row=4,column=1,pady=1,padx=5)
+
+        self.num6=Button(self.f,height=2,width=5,text="6")
+        self.num6.grid(row=4,column=2,pady=1,padx=5)
+        
+        self.mul=Button(self.f,height=2,width=5,text="*")
+        self.mul.grid(row=4,column=3,pady=1,padx=5)
+        
+        self.upon=Button(self.f,height=2,width=5,text="1/x")
+        self.upon.grid(row=4,column=4,pady=1,padx=5)
+        
+        #5th row buttons
+
+        self.num1=Button(self.f,height=2,width=5,text="1")
+        self.num1.grid(row=5,column=0,pady=10,padx=5)
+
+        self.num2=Button(self.f,height=2,width=5,text="2")
+        self.num2.grid(row=5,column=1,pady=10,padx=5)
+        
+        self.num3=Button(self.f,height=2,width=5,text="3")
+        self.num3.grid(row=5,column=2,pady=1,padx=5)
+
+        self.subtract=Button(self.f,height=2,width=5,text="-")
+        self.subtract.grid(row=5,column=3,pady=11,padx=5)
+        
+        self.equal=Button(self.f,height=6,width=5,text="=")
+        self.equal.grid(row=5,column=4,pady=1,padx=5,rowspan=2)
+
+        #6th row buttons :
+
+        self.num0=Button(self.f,height=2,width=13,text="0")
+        self.num0.grid(row=6,column=0,pady=1,padx=5,columnspan=2)
+
+        self.point=Button(self.f,height=2,width=5,text=".")
+        self.point.grid(row=6,column=2,pady=1,padx=5)
+        
+        self.add=Button(self.f,height=2,width=5,text="+")
+        self.add.grid(row=6,column=3,pady=1,padx=5)
+        """
